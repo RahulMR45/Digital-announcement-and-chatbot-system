@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+    font-family: 'Arial', sans-serif; /* Set a nice default font */
+    color: #333; /* Default text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* User.css - Adjusting the user container for notifications */
+/* User.css - Adjusting the height of the user container for notifications */
+.user-container {
+    max-width: 600px; /* Keeping the width unchanged */
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd; /* Lighten the border */
+    border-radius: 12px; /* Slightly larger border radius for softer corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    background-color: #f9f9f9; /* Light background for contrast */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+    min-height: 400px; 
+    
+}
+
+/* Chatbot.css - Adjusting the height of the chatbot container for a smaller box */
+.chatbot-container {
+    max-width: 600px; /* Keeping the width unchanged */
+    margin: 2rem auto;
+    padding: 1rem; /* Reduced padding for a smaller feel */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+    min-height: 100px;
+}
+
+/* Other styles remain unchanged */
+
+
+.user-container:hover {
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.user-title {
+    text-align: center;
+    color: #2d3748; /* Darker color for better contrast */
+    font-size: 2rem; /* Larger font size for the title */
+    margin-bottom: 1.5rem;
+    text-transform: uppercase; /* Uppercase for a bold statement */
+    letter-spacing: 1px; /* Spacing for a modern touch */
+}
+
+.notification-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.notification-item {
+    padding: 1rem; /* Increased padding for a more spacious look */
+    border: 1px solid #e2e8f0; /* Lighten the border */
+    border-radius: 8px; /* Slightly larger radius for modern feel */
+    margin-bottom: 0.75rem; /* Increased margin for spacing */
+    background-color: #fff; /* White background for contrast */
+    transition: box-shadow 0.2s; /* Smooth shadow transition */
+}
+
+.notification-item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+.notification-item p {
+    margin: 0; /* Remove margin from paragraph */
+}
+
+.notification-item .title {
+    font-weight: bold; /* Bold title for emphasis */
+    margin-bottom: 0.5rem; /* Space below the title */
+}
+
+.notification-item .description {
+    font-size: 0.9rem; /* Slightly smaller font for description */
+    color: #4a5568; /* Grayish color for the description */
+}

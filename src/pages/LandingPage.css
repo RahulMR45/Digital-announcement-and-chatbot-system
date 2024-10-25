@@ -1,0 +1,49 @@
+.landing-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #3b82f6, #8b5cf6);
+}
+
+.landing-card {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+}
+
+.landing-title {
+    font-size: 1.875rem; /* 3xl */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem; /* mb-8 */
+    color: #4a5568; /* gray-800 */
+}
+
+.landing-button {
+    width: 100%;
+    padding: 0.75rem; /* py-3 */
+    border-radius: 0.5rem; /* rounded-lg */
+    color: white;
+    margin-bottom: 1rem; /* space-y-4 */
+    transition: background-color 0.2s;
+}
+
+.admin-button {
+    background-color: #2563eb; /* bg-blue-600 */
+}
+
+.admin-button:hover {
+    background-color: #1d4ed8; /* hover:bg-blue-700 */
+}
+
+.user-button {
+    background-color: #7c3aed; /* bg-purple-600 */
+}
+
+.user-button:hover {
+    background-color: #6d28d9; /* hover:bg-purple-700 */
+}
